@@ -1,2 +1,2 @@
 # Black-Scholes-Option-Pricing
-A BS option pricer
+Computation of the analytical BS price for a Call option using the explicit solution.
