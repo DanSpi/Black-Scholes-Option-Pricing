@@ -8,6 +8,8 @@ function [ Price ] = Analytic_BS_Call(S, K,t, T, sigma, r)
 %T Maturity time 
 %sigma Standard deviation
 %r Risk free rate
+%Output:
+%Price
 
 d_1=(log(S/K)+(r+0.5*sigma^2)*(T-t))/(sigma*sqrt(T-t));
 d_2=d_1-sigma*sqrt(T-t);
